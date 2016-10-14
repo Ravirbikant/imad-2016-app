@@ -33,13 +33,13 @@ var articles = {
                },
 };
 
-function createtemplate (data) {
+function createTemplate (data) {
     var title = data.title;
     var date = data.date;
     var heading = data.heading;
     var content = data.content;
     
-    var htmltemplate =`
+    var htmlTemplate =`
     <html>
     <head>
         <title>
@@ -68,7 +68,7 @@ function createtemplate (data) {
     </body>
     </html>
 `;
-    return htmltemplate;
+    return htmlTemplate;
 }
 
 app.get('/', function (req, res) {
