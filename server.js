@@ -5,6 +5,46 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var articleOne={
+    title: 'Article One | Ravi Kant Jha',
+    heading: 'Article One',
+    date: 'Oct 13, 2016',
+    content: `
+             <p>
+                This is the first article and in the next step I will allign this web-page to my home page. `
+                
+};
+
+var htmltemplate =`
+<html>
+    <head>
+        <title>
+            ${title}
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/ui/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+        <div>
+            <a href="/">Home</a>
+        </div>
+        <hr/>
+        <h3>
+            ${heading}
+        </h3>
+        <div>
+            ${date}
+        </div>
+        <div>
+            <p>
+             ${content}
+        </div>
+        </div>
+    </body>
+</html>
+`;
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
