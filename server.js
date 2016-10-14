@@ -5,7 +5,8 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articleOne={
+var articles = {
+    articleOne={
     title: 'Article One | Ravi Kant Jha',
     heading: 'Article One',
     date: 'Oct 13, 2016',
@@ -13,6 +14,9 @@ var articleOne={
              <p>
                 This is the first article and in the next step I will allign this web-page to my home page. `
                 
+},
+    articleTwo={},
+    articleThree={},
 };
 
 function createtemplate (data) {
