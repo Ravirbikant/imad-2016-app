@@ -15,8 +15,14 @@ var articleOne={
                 
 };
 
-var htmltemplate =`
-<html>
+function createtemplate (data) {
+    var title = data.title;
+    var date = data.date;
+    var heading = data.heading;
+    var content = data.content;
+    
+    var htmltemplate =`
+    <html>
     <head>
         <title>
             ${title}
@@ -42,9 +48,10 @@ var htmltemplate =`
         </div>
         </div>
     </body>
-</html>
+    </html>
 `;
-
+    return htmlTemplate;
+}
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
