@@ -1,29 +1,8 @@
-body {
-    font-family: sans-serif;
-    background-color: white;
-    margin-top: 60px;
+p {
+    font-size: 100px;
 }
 
-.center {
-    text-align: center;
+span {
+	font-family: Cursive;
 }
 
-.text-big {
-    font-size: 300%;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.img-medium {
-    height: 200px;
-}
-.container {
-                max-width: 800px;
-                margin: 0 auto;
-                color: #4a4a4a;
-                font-family: sans-serif;
-                padding-left: 20px;
-                padding-right: 20px;
-            }
