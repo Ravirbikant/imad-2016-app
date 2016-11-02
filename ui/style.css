@@ -15,7 +15,7 @@ p{
 div:nth-child(2){
     background-color:#ADD8E6;
     height: 300px;
-    width:100px;
+    width:300px;
     border:1px solid white;
-    float:left;
+    float:right;
 }
