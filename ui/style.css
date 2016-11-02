@@ -2,4 +2,5 @@ div{
     background-color:#191970;
     height:50px;
     width:200px;
+    border:2px solid black;
 }
