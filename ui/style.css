@@ -17,5 +17,5 @@ div:nth-child(2){
     height: 300px;
     width:100px;
     border:1px solid white;
-    
+    float:left;
 }
