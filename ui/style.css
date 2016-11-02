@@ -18,4 +18,5 @@ div:nth-child(2){
     width:300px;
     border:1px solid white;
     float:right;
+    padding-right:20px;
 }
