@@ -1,7 +1,7 @@
 div {
 	height: 50px;
 	width: 150px;
-	border: 2px solid black;
+	border: 2px solid white;
 	border-radius: 5px;
 	background-color: #191970;
 	margin:auto;
@@ -11,4 +11,11 @@ p{
     color:#F5FFFA;
     font-family:Comic Sans MS;
     position:relative;
+}
+div:nth-child(2){
+    background-color:#ADD8E6;
+    height: 300px;
+    width:100px;
+    border:1px solid white;
+    
 }
