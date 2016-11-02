@@ -1,6 +1,10 @@
-div{
-    background-color:#191970;
-    height:50px;
-    width:200px;
-    border:2px solid black;
+div {
+	height: 300px;
+	width: 100px;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #308014;
+	/*Add your CSS here!*/
+	float:right;
+	
 }
